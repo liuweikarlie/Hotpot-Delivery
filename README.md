@@ -11,9 +11,9 @@ Customers can order on the platform, then we will match their needs to the food 
 ## System Structure 
 The system developed using Java Spring Boot framework as an Backend and BootStrap as frontend. Inside the system, it contains three parties: Users ( Buyer ), Merchant and Admin.
 
-![image info](./pic1.png)
-![image info](./pic2.png)
-![image info](./pic3.png)
+![image info](./pic1.png){ width=400px }
+![image info](./pic2.png){ width=400px }
+![image info](./pic3.png){ width=400px }
 
 ## Demo
 
