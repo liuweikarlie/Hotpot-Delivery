@@ -21,9 +21,9 @@ The system developed using Java Spring Boot framework as an Backend and BootStra
 
 ## Demo
 <p align="center">
-  <img src="./pic 4.png" width="50%" height="10%">
+  <img src="./pic 4.jpg" width="50%" height="10%">
   <img src="./pic5.png" width="50%" height="10%">
-  <img src="./pic 6.png" width="50%" height="10%">
+  <img src="./pic 6.jpg" width="50%" height="10%">
 
   </p>
 
