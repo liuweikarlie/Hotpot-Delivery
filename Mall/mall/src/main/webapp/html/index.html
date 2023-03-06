@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <script src="../js/jquery-3.5.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</head>
+
+<script>
+
+    $(() => {
+        $("#home").click(() => {
+            window.location.href = "index.html"
+        })
+
+        $("#login").click(() => {
+            window.location.href = "login.html"
+        })
+
+        $(".thumbnail").click(() => {
+            window.location.href = "detail.html"
+        })
+
+
+        // $("#carousel-1000").click(() => {
+        //     window.location.href = "detail.html"
+        // })
+
+
+    })
+
+
+</script>
+
+<body>
+
+    <div class="container">
+        <div class="row clearfix">
+            <div class="col-md-4 column">
+                <div class="page-header" id="home">
+                    <h1>
+                        Food Mall
+                        <!-- <br> -->
+                        <!-- <small>This is a food mall</small> -->
+                    </h1>
+                </div>
+            </div>
+            <div class="col-md-4 column">
+                
+                <!-- <img alt="" style="width: 100%; position: absolute;" src="../img/0413c4b694d5d431e2eb1269b8e9b89a.jpeg" /> -->
+                <!-- <form class="form-search" style="margin-top: 55px;">
+                    <input class="" type="text" style="width: 260px;" /> <button type="submit" class="btn">搜索</button>
+                </form> -->
+            </div>
+            <div class="col-md-3 column">
+                <div style="margin-top: 55px;">
+                    <!-- <span class="label label-default">品质保证</span> &nbsp;&nbsp;&nbsp;
+                    <span class="label label-default">极速物流</span> &nbsp;&nbsp;&nbsp;
+                    <span class="label label-default">售后无忧</span> -->
+                </div>
+            </div>
+            <div class="col-md-1 column">
+                <button id="login" style="margin-top: 53px;" type="button"
+                    class="btn btn-success btn-default">登录</button>
+            </div>
+        </div>
+        <div class="row clearfix">
+            <div class="col-md-12 column">
+                <div class="carousel slide" id="carousel-1000">
+                    <!-- <ol class="carousel-indicators">
+                        <li data-slide-to="0" data-target="#carousel-1000">
+                        </li>
+                        <li data-slide-to="1" data-target="#carousel-1000" class="active">
+                        </li>
+                        <li data-slide-to="2" data-target="#carousel-1000">
+                        </li>
+                    </ol> -->
+                    <div class="carousel-inner">
+                        <!-- <div class="item">
+                            <img alt="" src="../img/020799eb-479b-4a4b-9a44-41faedd418f4.png" />
+                        </div> -->
+                        <div class="item active">
+                            <img alt="" class="img-responsive" style="width: 100%;" src="../img/91876c84b89028406b98e678c0f80750_xxhdpi.jpg" />
+                        </div>
+                        <div class="item">
+                            <img alt="" style="width: 100%;"  src="../img/35016263de965617605fced00c9c2bb6_xxhdpi.jpg" />
+                        </div>
+                    </div> <a class="left carousel-control" href="#carousel-1000" data-slide="prev"><span
+                            class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control"
+                        href="#carousel-1000" data-slide="next"><span
+                            class="glyphicon glyphicon-chevron-right"></span></a>
+                </div>
+
+                <ul class="breadcrumb" style="margin-top: 18px; font-size: 20px;">
+                    <!-- <li>
+                        <a href="#">首页</a>
+                    </li> -->
+                    <li class="active">
+                        Select you area to shop
+                    </li>
+<!-- 
+                    <li style="float: right;">
+                        <a href="category.html">更多商品</a>
+                    </li> -->
+                </ul>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="thumbnail">
+                            <img alt="300x200" src="../img/HK island.png" />
+                            <!-- <div class="caption">
+                                <h3 style="height: 58px;">
+                                    洁丽雅绵柔抽纸巾三连包
+                                </h3>
+                                <strong style="color: red; margin-left: 50%; font-size: 16px;">
+                                    ￥49.00 &nbsp;
+                                    <del>￥58.80</del>
+                                </strong>
+                                <p style="margin-top: 8px; margin-left: 62%;" class="addToCart">
+                                    <a class="btn btn-primary" href="#">加入购物车</a>
+                                </p>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="thumbnail">
+                            <img alt="300x200" src="../img/Kowloon.png" />
+                            <!-- <div class="caption">
+                                <h3 style="height: 58px;">
+                                    洁丽雅纯棉加厚洗脸面巾柔软强吸水毛巾
+                                </h3>
+                                <strong style="color: red; margin-left: 50%; font-size: 16px;">
+                                    ￥29.00 &nbsp;
+                                    <del>￥29.88</del>
+                                </strong>
+                                <p style="margin-top: 8px; margin-left: 62%;" class="addToCart">
+                                    <a class="btn btn-primary" href="#">加入购物车</a>
+                                </p>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="thumbnail">
+                            <img alt="300x200" src="../img/New Territories.png" />
+                            <!-- <div class="caption">
+                                <h3 style="height: 58px;">
+                                    陌莎-布艺沙发清洁剂
+                                </h3>
+                                <strong style="color: red; margin-left: 50%; font-size: 16px;">
+                                    ￥39.90 &nbsp;
+                                    <del>￥47.88</del>
+                                </strong>
+                                <p style="margin-top: 8px; margin-left: 62%;" class="addToCart">
+                                    <a class="btn btn-primary" href="#">加入购物车</a>
+                                </p>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

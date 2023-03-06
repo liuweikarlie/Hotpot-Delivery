@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>商品详情</title>
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <script src="../js/jquery-3.5.1.min.js"></script>
+    <script src="../js/bootstrap.js"></script>
+</head>
+
+
+<script>
+
+    $(() => {
+        $("#home").click(() => {
+            window.location.href = "index.html"
+        })
+        
+    $("#login").click(() => {
+        window.location.href = "login.html"
+    })
+    })
+    
+    
+</script>
+    
+<body>
+    <div class="container">
+        <div class="row clearfix">
+            <div class="col-md-4 column">
+                <div class="page-header" id = "home">
+                    <h1>
+                        简易商城
+                        <br>
+                        <small>这是一个简易的综合类商城</small>
+                    </h1>
+                </div>
+            </div>
+            <div class="col-md-4 column">
+                <form class="form-search" style="margin-top: 55px;">
+                    <input class="" type="text" style="width: 260px;" /> <button type="submit" class="btn">搜索</button>
+                </form>
+            </div>
+            <div class="col-md-3 column">
+                <div style="margin-top: 55px;">
+                    <span class="label label-default">品质保证</span> &nbsp;&nbsp;&nbsp;
+                    <span class="label label-default">极速物流</span> &nbsp;&nbsp;&nbsp;
+                    <span class="label label-default">售后无忧</span>
+                </div>
+            </div>
+            <div class="col-md-1 column">
+                <button id="login" style="margin-top: 53px;" type="button"
+                    class="btn btn-success btn-default">登录</button>
+            </div>
+        </div>
+
+        <div class="row clearfix">
+            <div class="col-md-5 column">
+                <div style="width: 90%; ">
+                    <img  class="img-thumbnail"  style="object-fit: cover; height: 100%; width: 100%;" src="../img/umbrella_home.jpg" />
+                </div>
+                <div style="margin-top: 15px;">
+                    <img class="img-thumbnail"  width="100px" height="100px" src="../img/bbe1b01b-8d60-4fe8-80a0-c1784b001a91_thumbnail.jpg" />
+                    <img class="img-thumbnail"  width="100px" height="100px" src="../img/bbe1b01b-8d60-4fe8-80a0-c1784b001a91_thumbnail.jpg" />
+                    <img class="img-thumbnail"  width="100px" height="100px" src="../img/bbe1b01b-8d60-4fe8-80a0-c1784b001a91_thumbnail.jpg" />
+                    <img class="img-thumbnail"  width="100px" height="100px" src="../img/bbe1b01b-8d60-4fe8-80a0-c1784b001a91_thumbnail.jpg" />
+                </div>
+            </div>
+            <div class="col-md-7 column">
+                
+                <div class="jumbotron">
+                    <h2>
+                        天堂伞33539E梦幻麋鹿
+                    </h2>
+                    <p style="font-size: 16px; margin-top: 25px;">
+                        麋鹿来着神秘、吉祥的象征，设计师之所以把其绘画于雨伞上面，寓意带给人们美好和更加珍贵的体验感。为随时携带的你添加优雅高贵，更是让您处处顺心。
+                    </p>
+                    <p style="margin-top: 20px;">
+                        商品编码：12345678<br>
+                        销售价：<strong style="color: red;">￥79.00</strong><br>
+                        市场价：<del>￥94.80</del><br>
+                    </p>
+                    
+                    <p style="margin-top: 20px;">我要购买：</p><input type="number" value="1" min="1" max="1000"/>件
+                    <p style="margin-top: 10px; float: right;">
+                        <a class="btn btn-primary btn-large" href="cart.html">添加到购物车</a> &nbsp; &nbsp;
+                    </p>
+                    <br>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

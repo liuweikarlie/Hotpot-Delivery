@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>结算</title>
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <script src="../js/jquery-3.5.1.min.js"></script>
+    <script src="../js/bootstrap.js"></script>
+</head>
+
+
+<script>
+
+    $(() => {
+        $("#home").click(() => {
+            window.location.href = "index.html"
+        })
+
+        $("#login").click(() => {
+            window.location.href = "login.html"
+        })
+        $("#pay").click(() => {
+            window.location.href = "myOrder.html"
+        })
+
+    })
+
+
+</script>
+
+<body>
+    <div class="container">
+        <div class="row clearfix">
+            <div class="col-md-4 column">
+                <div class="page-header" id="home">
+                    <h1>
+                        简易商城
+                        <br>
+                        <small>这是一个简易的综合类商城</small>
+                    </h1>
+                </div>
+            </div>
+            <div class="col-md-4 column">
+                <form class="form-search" style="margin-top: 55px;">
+                    <input class="" type="text" style="width: 260px;" /> <button type="submit" class="btn">搜索</button>
+                </form>
+            </div>
+            <div class="col-md-3 column">
+                <div style="margin-top: 55px;">
+                    <span class="label label-default">品质保证</span> &nbsp;&nbsp;&nbsp;
+                    <span class="label label-default">极速物流</span> &nbsp;&nbsp;&nbsp;
+                    <span class="label label-default">售后无忧</span>
+                </div>
+            </div>
+            <div class="col-md-1 column">
+                <button id="login" style="margin-top: 53px;" type="button"
+                    class="btn btn-success btn-default">登录</button>
+            </div>
+        </div>
+
+        <div class="row clearfix">
+            <div class="col-md-12 column">
+                <h3>
+                    收货地址
+                </h3>
+                <address style="margin-top: 25px;"> <strong>张三</strong><br />
+                    广东省深圳市南山区西丽街道西丽花园<br />
+                    <abbr title="Phone">13888888888</abbr> </address>
+                <h3 style="margin-top: 25px;">
+                    支付方式
+                </h3><img style="height: 80px; width: 200px;" src="../img/92a3c7526881022edc469a3f7b327f27.jpg"
+                    class="img-thumbnail" />
+                <img style="height: 80px; width: 200px;" src="../img/c4839e96438e8731fe34c02f71c30fc6.jpg"
+                    class="img-thumbnail" />
+                <h3 style="margin-top: 25px; color: red;">
+                    支付金额： ￥128.00
+                </h3>
+                <button type="button" id="pay" class="btn btn-danger btn-lg" style="margin-top: 20px;">立即支付</button>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

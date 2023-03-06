@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我的购物车</title>
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <script src="../js/jquery-3.5.1.min.js"></script>
+    <script src="../js/bootstrap.js"></script>
+</head>
+
+
+<script>
+
+    $(() => {
+        $("#home").click(() => {
+            window.location.href = "index.html"
+        })
+
+        $("#login").click(() => {
+        window.location.href = "login.html"
+    })
+        $("#settle").click(() => {
+            window.location.href = "settle.html"
+        })
+
+    })
+    
+    
+</script>
+    
+<body>
+    <div class="container">
+        <div class="row clearfix">
+            <div class="col-md-4 column">
+                <div class="page-header" id = "home">
+                    <h1>
+                        简易商城
+                        <br>
+                        <small>这是一个简易的综合类商城</small>
+                    </h1>
+                </div>
+            </div>
+            <div class="col-md-4 column">
+                <form class="form-search" style="margin-top: 55px;">
+                    <input class="" type="text" style="width: 260px;" /> <button type="submit" class="btn">搜索</button>
+                </form>
+            </div>
+            <div class="col-md-3 column">
+                <div style="margin-top: 55px;">
+                    <span class="label label-default">品质保证</span> &nbsp;&nbsp;&nbsp;
+                    <span class="label label-default">极速物流</span> &nbsp;&nbsp;&nbsp;
+                    <span class="label label-default">售后无忧</span>
+                </div>
+            </div>
+            <div class="col-md-1 column">
+                <button id="login" style="margin-top: 53px;" type="button"
+                    class="btn btn-success btn-default">登录</button>
+            </div>
+        </div>
+        <div class="row clearfix">
+            <div class="col-md-12 column">
+                <h3 style="text-align: center;">
+                    我的购物车
+                </h3>
+                <table class="table table-bordered">
+                    <thead>
+                        <tr style="font-size: 22px; text-align: center;">
+                            <th>
+                                商品
+                            </th>
+                            <th>
+                                单价
+                            </th>
+                            <th>
+                                数量
+                            </th>
+                            <th>
+                                金额
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr style=" font-size: 22px;" class="">
+                            <td>
+                                <h3>天堂伞 插画黑胶三折防晒遮阳伞 33539E梦幻麋鹿</h3>
+                            </td>
+                            <td>
+                                <strong style="color: red;">￥79.00 </strong>
+                            </td>
+                            <td>
+                                1
+                            </td>
+                            <td>
+                                <strong style="color: red;">￥79.00 </strong>
+                            </td>
+                        </tr>
+                        <tr style=" font-size: 22px;" class="">
+                            <td>
+                                <h3>洁丽雅绵柔抽纸巾三连包</h3>
+                            </td>
+                            <td>
+                                <strong style="color: red;">￥49.00 </strong>
+                            </td>
+                            <td>
+                                1
+                            </td>
+                            <td>
+                                <strong style="color: red;">￥49.00 </strong>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="row clearfix">
+                    <div class="col-md-8 column">
+                        <h3 style="color: red;">
+                            商品总价(不含运费)： ￥128.00
+                        </h3>
+                    </div>
+                    <div class="col-md-4 column">
+                        <button type="button" id = "settle" class="btn btn-danger btn-lg" style="float: right;">去结算</button>
+                   </div>
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+</body>
+</html>
