@@ -11,18 +11,20 @@ Customers can order on the platform, then we will match their needs to the food 
 ## System Structure 
 The system developed using Java Spring Boot framework as an Backend and BootStrap as frontend. Inside the system, it contains three parties: Users ( Buyer ), Merchant and Admin.
 <p align="center">
-<img src="./pic1.png" width="50%" height="10%">
+
 <img src="./pic2.png" width="50%" height="10%">
 <img src="./pic3.png" width="50%" height="10%">
+  <img src="./pic1.png" width="50%" height="10%">
 
   
 </p>
 
 ## Demo
 <p align="center">
-![](./pic 4.png)
-![](./pic5.png)
-![](./pic6.png)
+  <img src="./pic 4.png" width="50%" height="10%">
+  <img src="./pic5.png" width="50%" height="10%">
+  <img src="./pic 6.png" width="50%" height="10%">
+
   </p>
 
 
